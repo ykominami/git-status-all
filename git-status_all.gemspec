@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>=1.9.3'
   spec.add_dependency  'colorize'
-  spec.add_dependency  'trollop'
+  spec.add_dependency  'optimist'
   spec.add_dependency  'git', "~> 1.3"
 end
