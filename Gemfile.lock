@@ -10,17 +10,19 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorize (0.8.1)
-    git (1.5.0)
-    optimist (3.0.0)
-    rake (10.5.0)
+    git (1.8.1)
+      rchardet (~> 1.8)
+    optimist (3.0.1)
+    rake (12.3.3)
+    rchardet (1.8.0)
 
 PLATFORMS
-  ruby
+  x64-mingw32
 
 DEPENDENCIES
-  bundler (~> 1.12)
+  bundler (~> 2.2.0)
   git-status-all!
-  rake (~> 10.0)
+  rake (~> 12.3.3)
 
 BUNDLED WITH
-   1.16.2
+   2.2.16
